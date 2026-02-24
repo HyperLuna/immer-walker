@@ -1,0 +1,38 @@
+{
+  "name": "immer-walker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A typed estree walker",
+  "author": "HyperLuna",
+  "license": "MIT",
+  "homepage": "https://github.com/HyperLuna/immer-walker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyperLuna/immer-walker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HyperLuna/immer-walker/issues"
+  },
+  "keywords": [
+    "ast",
+    "estree",
+    "walker",
+    "traverse"
+  ],
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.5.0",
+    "@types/estree": "^1.0.8",
+    "eslint": "^10.0.2",
+    "typescript": "^5.9.3"
+  }
+}
