@@ -16,4 +16,4 @@ npm i immer-walker
 
 ## License
 
-MIT © [Luke Edwards](https://lukeed.com)
+MIT
